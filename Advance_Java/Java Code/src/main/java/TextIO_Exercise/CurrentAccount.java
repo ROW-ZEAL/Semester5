@@ -1,9 +1,9 @@
 package TextIO_Exercise;
 
 public class CurrentAccount extends SuperBankClass {
-	double overdraftvalue;
+	double overDraftValue;
 	public CurrentAccount(String acno, double acbal, double overdraft ) {
 		super(acno,acbal);
-		this.overdraftvalue = overdraft;
+		this.overDraftValue = overdraft;
 	}
 }

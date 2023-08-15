@@ -33,6 +33,8 @@ public class Main {
         Scanner input = new Scanner(file);
 
         while (input.hasNext()){
+//            next() - ley space na aauney samma data read garcha
+
             String firstName = input.next();
             String middleName = input.next();
             String lastName = input.next();
