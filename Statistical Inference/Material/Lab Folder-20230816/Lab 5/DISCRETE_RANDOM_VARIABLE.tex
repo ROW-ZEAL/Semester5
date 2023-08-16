@@ -1,0 +1,123 @@
+\documentclass{article}\usepackage[]{graphicx}\usepackage[]{xcolor}
+% maxwidth is the original width if it is less than linewidth
+% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+
+\title{Discrete Random Variable}
+\author{Thulasy}
+
+\date{}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+\maketitle{}
+
+\begin{enumerate}
+
+\item What name is given to a table that lists all the values that a discrete random variable x can assume and their corresponding probabilities?\\
+\textbf{Answer}\\
+Probability Distribution Table
+
+\item Classify each of the following random variables as discrete or continuous.\\
+\begin{enumerate}
+\item The time left on a parking meter\\
+\textbf{Answer}\\
+Continuous Variable\\
+\item The total pounds of fish caught on a fishing trip\\
+\textbf{Answer}\\
+Continuous Variable\\
+\item The number of gumballs in a vending machine\\
+\textbf{Answer}\\
+Discrete Variable\\
+\item The time spent by a physician examining a patient\\
+\textbf{Answer}\\
+Continuous Variable\\
+\end{enumerate}
+
+\item A household can watch news on any of the three networks ??? ABC, CBS, or NBC. On a certain day, five households randomly and independently decide which channel to watch. Let x be the number of households among these five that decide to watch news on ABC. Is x a discrete or a continuous random variables? Explain.\\
+\textbf{Answer}\\
+x = the number of households among these five that decide to watch news on ABC\\
+x=0,1,2,3,4,5\\
+x is a discrete random variable because the number of family cannot be a real number\\
+
+\item The following table gives the probability distribution of a discrete random variable x.
+
+\begin{tabular}{cc}
+x & p(x)\\
+0 & 0.11\\
+1 & 0.19\\
+2 & 0.28\\
+3 & 0.15\\
+4 & 0.12\\
+5 & 0.09\\
+6 & 0.06\\
+\end{tabular}
+\\
+Find the probabilities?\\
+\begin{enumerate}
+\item P(x=3)	\\
+\textbf{Answer}\\
+P(x=3)=0.15
+\item P(x $\leq$ 2) \\
+\textbf{Answer}\\
+P(x$\leq$2)=P(x=0)+P(x=1)+P(x=2)=0.11+0.19+0.28\\
+\item P(x $\geq$ 3)\\
+P(x $\geq$ 3) = P(x=3)+P(x+4)+P(x=5)+P(x=6)=0.15+0.12+0.09+0.06\
+\item $P(1 \leq x \leq 4)$ = P(x=1)+P(x=2)+P(x=3)+P(x=4)\\
+e.	Probability that x assumes a value less than 4
+f.	Probability that x assumes a value greater than 2
+g.	Probability that x assumes  a value in the interval 2 to 5
+h.	Probability that x assumes  a value between 2 to 5
+
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
