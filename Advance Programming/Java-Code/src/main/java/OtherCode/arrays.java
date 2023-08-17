@@ -1,3 +1,4 @@
+package OtherCode;
 public class arrays {
     public static void main(String[] args) {
 //         Array is used to store multiple values in a single variable

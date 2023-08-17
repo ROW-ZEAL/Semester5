@@ -1,3 +1,4 @@
+package Encapsulation;
 public class savingalc {
     private int alcno;
     private double balance;
