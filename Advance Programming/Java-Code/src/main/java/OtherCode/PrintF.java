@@ -26,7 +26,7 @@ public class PrintF {
         System.out.printf("Character Value: %c\n", myChar);
         System.out.printf("String Value: %s\n", myString);
         System.out.printf("Double Value: %f\n", myDouble);
-s
+
 
     }
 }
