@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
 
+//        Array Exercise
+
 //        a[index] - accessing an element
 //          a[index] = "" - update
         // a. length - return size

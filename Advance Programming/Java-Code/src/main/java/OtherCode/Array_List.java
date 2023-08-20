@@ -10,6 +10,7 @@ public class Array_List {
 //                compilation phase
 
         ArrayList<String> food = new ArrayList<String>();
+
         food.add("Pizza");
         food.add("Hamburger");
         food.add("Hotdog");
