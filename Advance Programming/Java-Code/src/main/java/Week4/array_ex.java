@@ -2,7 +2,7 @@ package Week4;
 
 import java.util.Scanner;
 
-public class main {
+public class array_ex {
     public static void main(String[] args) {
 
 //        Array Exercise

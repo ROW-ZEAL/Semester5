@@ -2,7 +2,7 @@ package Week4;
 
 import java.util.ArrayList;
 
-public class arraylist {
+public class arraylist_ex {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<>();
 
