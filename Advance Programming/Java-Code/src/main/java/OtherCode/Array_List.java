@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Array_List {
     public static void main(String[] args) {
 //        ArrayList -> a resizable array which only
-//                store reference data type(Wappper Class)
+//                store reference data type(Wrapper Class)
 //        -> Here, element can be added and removed after
 //                compilation phase
 
