@@ -1,8 +1,11 @@
 package Week4;
 
+import java.util.Collection;
 import java.util.LinkedList;
 
 public class Linklist_ex {
+
+
     public static void main(String[] args) {
         LinkedList<String> food = new LinkedList<>();
 
