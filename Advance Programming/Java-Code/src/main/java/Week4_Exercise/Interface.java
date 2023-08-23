@@ -23,4 +23,11 @@ public class Interface {
         public void startEngine();
 
     }
+    //2. Add interface Registration to the vehicles that require
+    // compulsory registration. All air-crafts and motorbikes
+    // require registration number.
+
+    public interface Registration{
+        public void Comp_registration(String reg);
+    }
 }

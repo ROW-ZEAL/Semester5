@@ -1,6 +1,6 @@
 package Week4_Exercise;
 
-public class Aircraft extends Vehicle implements Interface.Engine, Interface.WheelSystem, Interface.FlightSystem {
+public class Aircraft extends Vehicle implements Interface.Engine, Interface.WheelSystem, Interface.FlightSystem, Interface.Registration{
     public Aircraft(String t, int s) {
         super(t, s);
     }
@@ -15,6 +15,10 @@ public class Aircraft extends Vehicle implements Interface.Engine, Interface.Whe
         System.out.println("Aircraft altitude is 15000m");
         }
 
+        public void Comp_registration (String reg){
+            System.out.println("Aircraft is registrated with number: " + reg);
+
+        }
 }
 
 
