@@ -4,10 +4,10 @@ This repository contains all the class materials for Semester 5.
 
 ## Contents
 
-- [Advance Programming] (https://github.com/pdlmanoj/Semester-5/tree/main/Advance%20Programming)
-- [Theory of Computation] (https://github.com/pdlmanoj/Semester-5/tree/main/Theory%20of%20Computation)
-- [Statistical Inference & Modelling] (https://github.com/pdlmanoj/Semester-5/tree/main/Statistical%20Inference)
-- [Data Science Principles] (https://github.com/pdlmanoj/Semester-5/tree/main/Data%20Science%20Principles)
+- [Advance Programming](https://github.com/pdlmanoj/Semester-5/tree/main/Advance%20Programming)
+- [Theory of Computation](https://github.com/pdlmanoj/Semester-5/tree/main/Theory%20of%20Computation)
+- [Statistical Inference & Modelling](https://github.com/pdlmanoj/Semester-5/tree/main/Statistical%20Inference)
+- [Data Science Principles](https://github.com/pdlmanoj/Semester-5/tree/main/Data%20Science%20Principles)
 
   
 ## Contributing
