@@ -1,4 +1,4 @@
-package bank;
+package Week3_Lab;
 // extends - inheritance -- single inheritance
 public class SavingAccount extends SuperBankClass {
 	double interest;

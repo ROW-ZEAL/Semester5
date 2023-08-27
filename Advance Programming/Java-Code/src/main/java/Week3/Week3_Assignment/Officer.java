@@ -1,4 +1,4 @@
-package Week3_Assignment;
+package Week3.Week3_Assignment;
 
 public class Officer extends Employee_3{
     private final double petrol;

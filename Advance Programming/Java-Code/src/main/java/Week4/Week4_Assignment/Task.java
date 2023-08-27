@@ -1,4 +1,4 @@
-package Week4_Assignment;
+package Week4.Week4_Assignment;
 
 import java.util.LinkedList;
 import java.util.Scanner;

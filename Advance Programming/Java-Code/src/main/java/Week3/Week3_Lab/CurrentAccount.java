@@ -1,4 +1,4 @@
-package bank;
+package Week3_Lab;
 
 public class CurrentAccount extends SuperBankClass {
 	double overdraftvalue;

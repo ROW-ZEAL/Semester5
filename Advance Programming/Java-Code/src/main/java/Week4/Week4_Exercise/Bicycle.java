@@ -1,4 +1,4 @@
-package Week4_Exercise;
+package Week4.Week4_Exercise;
 public class Bicycle extends Vehicle implements Interface.WheelSystem{
         public Bicycle(String t, int s){
             super(t, s);

@@ -1,4 +1,4 @@
-package Week4_Exercise;
+package Week4.Week4_Exercise;
 
 public class MyTransport {
     // Superclass - yo batw hami ley sab display garcham
